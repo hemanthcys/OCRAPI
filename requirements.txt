@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pytesseract
+Pillow
+python-multipart
+python-dotenv
+PyYAML
+openai==0.28
