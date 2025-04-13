@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: ocr-api
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "uvicorn main:app --host 0.0.0.0 --port 10000"
-    envVars:
-      - key: OPENAI_API_KEY
-        value: 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
