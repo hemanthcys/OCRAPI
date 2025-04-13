@@ -16,7 +16,7 @@ if os.name == 'nt':pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Te
 # Load OpenAI API Key from environment variable
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY").strip()
 
 # Create FastAPI app
 app = FastAPI()
